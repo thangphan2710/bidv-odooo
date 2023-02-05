@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bidv-odoo-configmap
+  labels:
+    app: bidv-odoo-app
+data:
+  POSTGRES_DB: bidv-db
+  POSTGRES_USER: bidv
+  POSTGRES_PASSWORD: bidv
